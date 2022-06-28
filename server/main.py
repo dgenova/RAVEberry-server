@@ -4,7 +4,7 @@ import time
 import os
 import glob
 import sys
-sys.path.append(r"C:\Users\David\Documents\Notebooks\Stage\raspirave")
+
 import torch
 import numpy as np
 
