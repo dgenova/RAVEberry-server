@@ -11,7 +11,6 @@ import numpy as np
 from server.audio import Audio, SampleAudio
 from server.network import Network
 from server.realtimeFRAVE import RaspFRAVE
-import random
 
 torch.set_grad_enabled(False)
 
