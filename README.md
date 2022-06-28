@@ -58,4 +58,4 @@ sudo apt-get update -y
 sudo apt-get install git pip libportaudio2 libsndfile1 -y
 
 git clone {REPO_HTTPS}
-pip install -r Requirements.txt
+pip install -r requirements.txt
