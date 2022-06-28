@@ -57,5 +57,5 @@ from your computer: ``ssh pi@{IP_ADDRESS}``
 sudo apt-get update -y
 sudo apt-get install git pip libportaudio2 libsndfile1 -y
 
-git clone {REPO_HTTPS}
+git clone https://github.com/dgenova/RAVEberry-server.git
 pip install -r requirements.txt
