@@ -240,7 +240,6 @@ class RaspiRave(object):
                             use_ori = True
                             use_ext = False
                         elif self.state[msg["type"]] == 'external':
-                            self.tx.put(modulator_sample)
                             self.start_playing_sample(modulator_sample,
                                                       self.sample_idx_2)
                             self.tx.put("Start Playing External Sample")
