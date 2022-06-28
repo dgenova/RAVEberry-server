@@ -4,7 +4,7 @@ import numpy as np
 import sounddevice as sd
 import librosa as li
 
-from server.realtimeFRAVE import RaspFRAVE_Thread
+from realtimeFRAVE import RaspFRAVE_Thread
 
 class Audio(threading.Thread):
     def __init__(self, model, sr, blocksize, queue, attr_mod, volume, playing):

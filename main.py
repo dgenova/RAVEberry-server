@@ -8,9 +8,9 @@ import sys
 import torch
 import numpy as np
 
-from server.audio import Audio, SampleAudio
-from server.network import Network
-from server.realtimeFRAVE import RaspFRAVE
+from audio import Audio, SampleAudio
+from network import Network
+from realtimeFRAVE import RaspFRAVE
 
 torch.set_grad_enabled(False)
 
