@@ -1,0 +1,13 @@
+librosa==0.8.1
+numpy==1.22.3
+pydantic==1.9.0
+pyloudnorm==0.1.0
+pyyaml==6.0
+scipy==1.8.0
+scikit-learn==1.0.2
+sounddevice==0.4.3
+torch==1.11.0
+tqdm==4.64.0
+websockets==10.3
+git+https://github.com/acids-ircam/cached_conv.git#egg=cached_conv
+git+https://github.com/caillonantoine/UDLS.git#egg=udls
